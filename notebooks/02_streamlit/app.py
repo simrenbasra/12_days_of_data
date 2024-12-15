@@ -21,3 +21,6 @@ if st.button(label = 'Generate Story'):
     my_story = get_response(my_prompt)
 
     st.write(my_story)
+
+    # Button for user to download story
+    st.download_button("Download your story!", my_story)
