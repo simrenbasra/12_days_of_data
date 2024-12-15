@@ -1,2 +1,7 @@
 # To hide API key
 *.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.DS_Store
+*.pptx
