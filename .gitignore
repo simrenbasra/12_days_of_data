@@ -5,4 +5,4 @@
 .ipynb_checkpoints
 .DS_Store
 *.pptx
-*.pyc
+notebooks/02_streamlit/__pycache__/
