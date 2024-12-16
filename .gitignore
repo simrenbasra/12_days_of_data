@@ -1,8 +1,12 @@
 # To hide API key
 *.env
 
+# Ignore Python cache directories and files
+__pycache__/
+*.pyc
+
 # Jupyter Notebook
 .ipynb_checkpoints
 .DS_Store
 *.pptx
-notebooks/02_streamlit/__pycache__/
+
