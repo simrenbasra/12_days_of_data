@@ -51,7 +51,7 @@ For this project, LLM will generate short Christmas stories based on user-provid
 The goal of this project is to test the LLM’s creative abilities, so I intentionally kept mandatory inputs to a minimum. The fewer details the user provides, the more the LLM has to generate itself, allowing it to demonstrate creativity in creating stories. Minimum inputs would also test my ability to create meaningful prompts. The optional inputs allow users to further customise their stories.
 
 #### **Expected Output**
-- **Length:** 400 words.
+- **Length:** To be determined by the user, between 300 words and 1000 words.
 
 - **Cohesiveness:** The generated story should be logical with a clear flow from beginning to end.
 
