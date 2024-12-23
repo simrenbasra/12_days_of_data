@@ -1,20 +1,14 @@
 altair==5.5.0
 annotated-types==0.7.0
 anyio==4.7.0
-asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work
 attrs==24.2.0
-backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
 blinker==1.9.0
 cachetools==5.5.0
 certifi==2024.8.30
 charset-normalizer==3.4.0
 click==8.1.7
-comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1733502965406/work
-debugpy @ file:///Users/runner/miniforge3/conda-bld/debugpy_1732236767893/work
-decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1733236420667/work
 distro==1.9.0
 exceptiongroup==1.2.2
-executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1733569351617/work
 gitdb==4.0.11
 GitPython==3.1.43
 h11==0.14.0
@@ -22,9 +16,6 @@ httpcore==1.0.7
 httpx==0.28.1
 idna==3.10
 importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1733223117029/work
-ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1719845458456/work
-ipython @ file:///Users/runner/miniforge3/conda-bld/ipython_1680185563420/work
-jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1733300866624/work
 Jinja2==3.1.4
 jiter==0.8.2
 jsonschema==4.23.0
@@ -36,7 +27,6 @@ MarkupSafe==3.0.2
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
 mdurl==0.1.2
 narwhals==1.18.2
-nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
 numpy==2.0.2
 openai==1.57.2
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
@@ -49,7 +39,6 @@ platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_17
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1733302527033/work
 protobuf==5.29.1
 psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1729847094065/work
-ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
 pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
 pyarrow==18.1.0
 pydantic==2.10.3
@@ -59,7 +48,6 @@ Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1733221634
 python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
 python-dotenv==1.0.1
 pytz==2024.2
-pyzmq @ file:///Users/runner/miniforge3/conda-bld/pyzmq_1728642327912/work
 referencing==0.35.1
 requests==2.32.3
 rich==13.9.4
