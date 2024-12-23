@@ -6,6 +6,9 @@ import pandas as pd
 import numpy as np
 from api_connector import get_response, build_prompt, rand_choice
 
+# Access API key securely from Streamlit's secrets
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+
 #####################################################
 # Customising CSS
 #####################################################
@@ -80,7 +83,7 @@ if st.button(label = '✨ Write My Story!',use_container_width=True):
             # calling build_prompt to generate prompt from given inputs
             my_prompt = build_prompt(character_type,story_genre, location, theme)
             # to get response from model
-            my_story = get_response(my_prompt,story_length)
+            my_story = get_response(OPENAI_API_KEY,my_prompt,story_length)
             # display output(story) 
             st.write(my_story)
 

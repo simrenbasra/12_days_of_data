@@ -3,7 +3,7 @@
 #####################################################
 from dotenv import load_dotenv
 import os
-from openai import OpenAI
+import openai
 import random
 
 #####################################################
@@ -117,7 +117,7 @@ def build_prompt(char_type, genre, location, theme):
 #####################################################
 # FUNCTION: Retrieves Response from model
 #####################################################
-def get_response(prompt, story_len):
+def get_response(OPENAI_API_KEY,prompt, story_len):
     """
     Description: 
         To get response from the GPT model after passing in a prompt.
@@ -130,9 +130,9 @@ def get_response(prompt, story_len):
         Returns a story tailored to user inputs.
     """
     # connect to OpenAI
-    client = OpenAI()
+    openai.api_key = OPENAI_API_KEY
     # connect to the chat.completions endpoint and create a new request
-    completion = client.chat.completions.create(
+    completion = openai.chat.completions.create(
         model="gpt-4o",
         messages=[
             # assigning role of model to be a writer of stories and define length of stories
