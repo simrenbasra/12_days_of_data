@@ -146,7 +146,7 @@ def get_response(prompt, story_len):
         max_tokens= story_len + 800,
         temperature = 0.9
     )
-
+    
     return(completion.choices[0].message.content)
 
  

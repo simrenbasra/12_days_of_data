@@ -21,6 +21,7 @@ custom_css = """
             text-align: center;
             border-bottom: 3px solid #D1D1D1; 
         }        
+
     </style>
 """
 
