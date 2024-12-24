@@ -142,9 +142,9 @@ def get_response(prompt, story_len):
         ],
         # model paramters
         #   max_tokens: total tokens passed in and out of the model so this would be length output + lenght of prompt (~800)
-        #   temperature: controls creativity and randomness in the output. Value of 0.9 ensures creativity is in the story with intresting twists. 
+        #   temperature: controls creativity and randomness in the output. Value of 0.8 ensures creativity is in the story with intresting twists.
         max_tokens= story_len + 800,
-        temperature = 0.9
+        temperature = 0.8
     )
     
     return(completion.choices[0].message.content)
