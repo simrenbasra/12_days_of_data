@@ -65,3 +65,29 @@ The goal of this project is to test the LLM’s creative abilities, so I intenti
 ## Sharing Updates
 Every three days, I shared my progress as part of my project, to view [visit my blog post](https://simrenbasra.github.io/simys-blog/2024/12/12/12_days_of_data_diary.html).
 
+
+## Instructions to Run the Project
+
+1. Clone the Repository: 
+
+    Enter the following command in terminal:
+
+    `https://github.com/simrenbasra/12_days_of_data.git`
+
+2. Navigate to project directory (where you cloned project to)
+
+3. Set up Environmnet using requirements.txt
+
+    I find it best to set up a new environmnet for each project:
+
+    `conda create --name xxxx python 3.9`
+    `conda activate xxxx`
+
+4. Install project required libraries
+
+    `pip install -r requirements.txt`
+
+5. Navigate to notebooks/02_streamlit and run Streamlit App
+
+    `streamlit run app.py`
+
